@@ -70,7 +70,6 @@ which is the hash of the Genesis block (0 height)
 ### Raw Block
 ```
   /insight-api/rawblock/[:blockHash]
-  /insight-api/rawblock/[:blockHeight]
 ```
 
 This would return:
@@ -96,11 +95,7 @@ Example response:
       "size": 989237,
       "hash": "00000000000000000108a1f4d4db839702d72f16561b1154600a26c453ecb378",
       "time": 1461360083,
-      "txlength": 1695,
-      "poolInfo": {
-        "poolName": "BTCC Pool",
-        "url": "https://pool.btcc.com/"
-      }
+      "txlength": 1695
     }
   ],
   "length": 1,
